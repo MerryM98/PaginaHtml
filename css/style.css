@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+header{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+body{
+
+    margin: 0;
+    margin-bottom: 50px;  
+}
+.logo{
+    width: 190px;   
+}
+.tanjiro{
+    width: 100%;   
+    height: 100%; 
+}
+.imgfooter{
+    width: 120px;   
+    height: 80px; 
+    border-radius: 100px;
+    display:block;
+    margin:auto;
+}
+.menu-icono{
+    width: 25px;
+}
+section{
+    width: 78%;
+    margin: 2%;
+    height: 400px;
+    float: left;
+}
+aside{
+    width: 18%;
+    height: 400px;
+    margin-top: 2%;
+    float: right;
+}
+.menuVertical{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.menuVertical a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.menuVertical a:hover{
+    background-color: white;
+    color: black;
+}
+.content{
+    width: 30%;
+    height: 90%;
+    margin: 2%;
+    float: left;
+    text-align: center  ;
+}
+.contenedorPrin{
+    width: 96%;
+    padding-bottom: 60%;
+}
+.table{
+    width: 400px;
+    height: 200px;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+.mbappe {
+    float: right;
+    width: 550px;
+  }
+  #text {
+    z-index: 100;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 0px;
+  }
+  .mbappe2{
+    float: right;
+    width: 550px;
+  }
+ .containerMenu{
+    float: right;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 150px;
+  }
+.footerBoton{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerBoton p{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.icons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.icons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
